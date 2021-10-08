@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="LibreriaNobo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DateChooser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/derby.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

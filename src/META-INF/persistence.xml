@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="LibreriaNoboPU_nuevo" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>modelo.Categoria</class>
+    <class>modelo.Compra</class>
+    <class>modelo.CuentaCorriente</class>
+    <class>modelo.OrdenDeCompra</class>
+    <class>modelo.Presupuesto</class>
+    <class>modelo.Producto</class>
+    <class>modelo.Proveedor</class>
+    <class>modelo.Transaccion</class>
+    <class>modelo.Venta</class>
+    <class>modelo.Usuario</class>
+    <class>modelo.Cliente</class>
+    <class>modelo.LineaTransaccion</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:C:\Users\Analía Santomé\.netbeans-derby\sistemaGestionNobo"/>
+      <!--<property name="javax.persistence.jdbc.url" value="jdbc:derby:sistemaGestionNobo;create=true"/>-->
+      <property name="javax.persistence.jdbc.user" value="dario"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+      <property name="javax.persistence.jdbc.password" value="dario"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+    </properties>
+  </persistence-unit>
+</persistence>

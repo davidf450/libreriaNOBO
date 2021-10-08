@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LibreriaNobo1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/LibreriaNobo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
